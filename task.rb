@@ -49,17 +49,17 @@ def q6
   numbers1 = [1, 2, 3, 4, 5]
 
   # 以下に回答を記載
-  numbers.map { |n|n*10}
-  p numbers
+  ten_numbers = numbers1.map { |n| n*10}
+  p ten_numbers
 end
 
 def q7
   array = ["1", "2", "3", "4", "5"]
 
   # 以下に回答を記載
-integers = array.map{|n|n.to_i}
+  new_array = array.map{|n|n.to_i}
   # 以下は変更しないで下さい
-  p integers
+  p new_array
 end
 
 def q8
