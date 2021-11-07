@@ -196,7 +196,7 @@ def q18
   user2 = UserQ18.new(name: "ゆたぼん", age: 10)
 
   def introduce
-    if @name == "あじー"
+    if @age >= 20
       "こんにちは、#{@name}と申します。よろしくお願いいたします。"
     else
       "はいさいまいど〜、#{@name}です！！！"
